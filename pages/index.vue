@@ -2,11 +2,10 @@
   <div>
     <NuxtLogo />
     <Count />
+    <History />
   </div>
 </template>
 
 <script>
-export default {
 
-};
 </script>
