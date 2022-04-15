@@ -2,7 +2,7 @@
   <div class="d-flex justify-center flex-wrap my-16">
     <h3 class="black--text d-flex justify-center">History</h3>
 
-    <div class="container d-flex justify-center flex-wrap">
+    <div class="container  d-flex justify-center flex-wrap"  >
       <p
         class="black--text ml-2"
         v-for="(number, index) in history"
@@ -38,11 +38,14 @@ export default {
 
 <style>
 .container {
-  width: 450px;
-  border: solid black 3px;
+  border: solid black 2px;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 40px;
 }
 
 .bold{
     font-weight: 900;
 }
+
 </style>

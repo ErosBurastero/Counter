@@ -3,7 +3,7 @@
       <div class="black--text d-flex justify-center counter">{{ counter }}</div>
       <div class="d-flex justify-center">
       <button @click="subtractToCounter(parseInt(value))" >-</button>
-      <input  class="ml-4 " type="number" v-model="value" />
+      <input  class="ml-4" type="number" v-model="value" />
       <button @click="addToCounter(parseInt(value))" class="ml-4">+</button>
       </div>
       <div class="d-flex justify-center my-5">

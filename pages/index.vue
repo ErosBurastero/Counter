@@ -1,8 +1,11 @@
 <template>
-  <div>
-    <NuxtLogo />
-    <Count />
+  <div class="my-10">
+    
+      <NuxtLogo />
+      <Count />
     <History />
+    
+    
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
-  <v-app>
+  <v-app dark>
    
-    <v-main class="green">
+    <v-main class="black">
       <v-container >
         <Nuxt />
       </v-container>
