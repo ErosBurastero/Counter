@@ -29,7 +29,8 @@ export default {
 
     methods: {
         ...mapMutations(["addToCounter", "subtractToCounter"]),
-        ...mapActions(["addRandomNumber"])
+        ...mapActions(["addRandomNumber"]),
+
     }
 
 }
@@ -40,6 +41,9 @@ export default {
 button{
     color: black;
     font-size: 30px;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 20px;
 }
 
 input{
